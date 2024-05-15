@@ -1,0 +1,46 @@
+.studentsList {
+	width: 7.5rem;
+	text-align: left;
+	margin: 0 auto;
+	margin-top: 1.25rem;
+}
+
+.dateTime {
+	margin-bottom: 1.25rem;
+	margin-top: .9375rem;
+}
+
+.student_wrap {
+	display: flex;
+	align-items: center;
+	padding-bottom: .625rem;
+	margin-right: 1.875rem;
+}
+
+.student_wrap p {
+	margin-right: .3125rem;
+}
+
+.dateTime input[type='date'] {
+	padding: .9375rem;
+	border: .0625rem solid #b5a4ff;
+	border-radius: .3125rem;
+	font-size: .9375rem;
+	cursor: pointer;
+}
+
+.btn {
+	padding: .625rem 1.25rem;
+	margin-top: 1.25rem;
+	background-color: #ac9efa;
+	color: #fff;
+	border: none;
+	border-radius: .3125rem;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #cea7fa;
+	color: #fff;
+}
